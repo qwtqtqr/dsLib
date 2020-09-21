@@ -24,6 +24,5 @@ int binTree_getMaxIndex(BinTree* tree);
 int array_getMin(int* array, int arraySize);
 int array_getMax(int* array, int arraySize);
 void* binTree_getItem(BinTree* tree, int index);
-LinkedList* binTree_sortNums(LinkedList* list);
 
 #endif

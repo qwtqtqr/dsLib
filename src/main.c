@@ -41,16 +41,5 @@ int main() {
 	LinkedList_add_end(list, 303);
 	LinkedList_add_end(list, 6347);
 	LinkedList_add_end(list, 99);
-	
-
-	LinkedList* sortedList = binTree_sortNums(list);
-
-	for (int i = 0; i < LinkedList_size(sortedList); i++)
-	{
-		void* ptr = LinkedList_getItem(sortedList, i);
-		int curNum = (int*)ptr;
-		printf("%d\n", curNum);
-	}
-
 
 }
